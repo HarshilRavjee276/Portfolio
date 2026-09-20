@@ -1,0 +1,30 @@
+<svg viewBox="0 0 480 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="p1Title">
+  <title id="p1Title">Browser mockup showing the TechFix Solutions multi-page website</title>
+  <rect width="480" height="260" fill="#0E1B15"/>
+  <rect width="480" height="30" fill="#132A20"/>
+  <circle cx="18" cy="15" r="5" fill="#E3B980"/>
+  <circle cx="36" cy="15" r="5" fill="#6FCF97"/>
+  <circle cx="54" cy="15" r="5" fill="#4A3A24"/>
+  <rect x="90" y="8" width="300" height="14" rx="7" fill="#0E1B15" stroke="#24422F"/>
+  <text x="240" y="18" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#93B6A2">techfixsolutions.co.za</text>
+  <rect x="0" y="30" width="480" height="40" fill="#132A20"/>
+  <text x="20" y="55" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="600" fill="#E9F3EC">TechFix Solutions</text>
+  <g font-family="'JetBrains Mono', monospace" font-size="11" fill="#93B6A2">
+    <text x="230" y="54">Home</text>
+    <text x="278" y="54">About</text>
+    <text x="330" y="54">Services</text>
+    <text x="392" y="54">Booking</text>
+    <text x="450" y="54">Contact</text>
+  </g>
+  <rect x="20" y="86" width="440" height="60" rx="3" fill="#1A3A2A"/>
+  <text x="34" y="112" font-family="'Space Grotesk', sans-serif" font-size="13" fill="#E9F3EC">Fast, reliable device repairs</text>
+  <text x="34" y="132" font-family="'JetBrains Mono', monospace" font-size="10" fill="#A6E3B5">Book a repair →</text>
+  <g>
+    <rect x="20" y="160" width="136" height="70" rx="3" fill="#132A20" stroke="#24422F"/>
+    <rect x="168" y="160" width="136" height="70" rx="3" fill="#132A20" stroke="#24422F"/>
+    <rect x="316" y="160" width="144" height="70" rx="3" fill="#132A20" stroke="#24422F"/>
+    <text x="36" y="182" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6FCF97">Mobile Repair</text>
+    <text x="184" y="182" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6FCF97">Desktop Repair</text>
+    <text x="332" y="182" font-family="'JetBrains Mono', monospace" font-size="10" fill="#6FCF97">Get a Quote</text>
+  </g>
+</svg>

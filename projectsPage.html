@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Harshil Ravjee</title>
+<meta name="description" content="Web development projects by Harshil Ravjee, including a business website and a skills-training platform built with HTML, CSS and JavaScript.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css-assests/style.css">
+</head>
+<body>
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="sidebar__brand">
+      <span class="name">Harshil Ravjee</span>
+      <span class="role">aspiring software developer</span>
+    </div>
+    <span class="explorer-label">PORTFOLIO</span>
+    <ul class="side-nav">
+      <li><a class="side-link" href="homePage.html"><span class="dot">●</span>homePage.html</a></li>
+      <li><a class="side-link" href="aboutMe.html"><span class="dot">●</span>aboutMe.html</a></li>
+      <li><a class="side-link is-active" href="projectsPage.html"><span class="dot">●</span>projectsPage.html</a></li>
+      <li><a class="side-link" href="reflectionPage.html"><span class="dot">●</span>reflectionPage.html</a></li>
+      <li><a class="side-link" href="contactPage.html"><span class="dot">●</span>contactPage.html</a></li>
+    </ul>
+    <div class="sidebar__meta">
+      <a href="https://github.com/HarshilRavjee276" target="_blank" rel="noopener">GitHub profile ↗</a>
+      <a href="https://www.linkedin.com/in/harshil-ravjee-004969438/" target="_blank" rel="noopener">LinkedIn profile ↗</a>
+      <a href="mailto:harshilravjee274@gmail.com">harshilravjee274@gmail.com</a>
+    </div>
+  </aside>
+
+  <div class="scrim"></div>
+
+  <div class="main">
+    <div class="tabbar">
+      <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">☰ files</button>
+      <a class="tab" href="homePage.html">homePage.html</a>
+      <a class="tab" href="aboutMe.html">aboutMe.html</a>
+      <a class="tab is-active" href="projectsPage.html">projectsPage.html</a>
+      <a class="tab" href="reflectionPage.html">reflectionPage.html</a>
+      <a class="tab" href="contactPage.html">contactPage.html</a>
+    </div>
+    <nav class="breadcrumb" aria-label="Breadcrumb">portfolio <span class="sep">/</span> <span class="current">projects</span></nav>
+
+    <main class="content">
+      <p class="eyebrow"><span class="kw">import</span> { projects } <span class="kw">from</span> <span class="str">"./work"</span>;</p>
+      <h1>Projects</h1>
+      <p>A selection of academic and practical work from my Higher Certificate in Mobile Application and Web Development. Course-assessment answers and any confidential material have been left out — each entry below reflects work I built myself.</p>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-card__img">
+            <img src="_images/project-techfix.svg" alt="Browser mockup of the TechFix Solutions multi-page website" loading="lazy">
+          </div>
+          <div class="project-card__body">
+            <h3>TechFix Solutions Website</h3>
+            <p class="purpose">A multi-page business website built for a device repair company, with dedicated pages for services, bookings, quotes, a gallery, reviews and FAQs, plus consistent navigation across the whole site.</p>
+            <ul class="stack-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="https://github.com/HarshilRavjee276/TFS-website" target="_blank" rel="noopener">Repository ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__img">
+            <img src="_images/project-etn.svg" alt="Course card mockup for the Empowering The Nation skills-training website" loading="lazy">
+          </div>
+          <div class="project-card__body">
+            <h3>Empowering The Nation</h3>
+            <p class="purpose">A multi-page website for a skills-training platform aimed at domestic workers and gardeners, letting them browse and enrol in six-month courses — First Aid &amp; CPR, Sewing, Life Skills, Landscaping, Child Minding, Cooking and Garden Maintenance — so they can upskill, earn higher wages, and move toward starting their own small businesses. Includes course listing cards and a detailed course page with Overview, Instructor and Reviews tabs.</p>
+            <ul class="stack-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="https://github.com/HarshilRavjee276/Will-Project-ETN" target="_blank" rel="noopener">Repository ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">© 2026 Harshil Ravjee. Built with HTML, CSS &amp; JavaScript.</footer>
+  </div>
+</div>
+<script src="js-assests/nav.js"></script>
+</body>
+</html>
